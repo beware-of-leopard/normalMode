@@ -1,0 +1,119 @@
+*{
+	font-family: Helvetica, sans-serif;
+	margin: auto;
+	box-sizing: border-box;
+}
+
+img{
+	width: 100%;
+}
+
+ul{
+	text-decoration: none;
+	margin: 0;
+	padding:0;
+	list-style: none;
+}
+
+nav ul{
+	overflow: hidden;
+	padding: 10px;
+}
+
+nav ul li{
+	float: left;
+	margin-right: 50px;
+}
+
+.container{
+	width: 100%;
+	text-align: center;
+	padding: 0 160px 0 160px;
+}
+
+.plansBox{
+	background-color: white;
+	width: 100%;
+	text-align: center;
+	margin: 10px 0 40px 0;
+
+}
+
+.plans {
+	display: inline-block;
+	margin: auto;
+    width: 300px;
+}
+
+.personal li:first-child{
+	background: green;
+}
+
+.smallBusiness li:first-child{
+	background: blue;
+}
+
+.enterprise li:first-child{
+	background: black;
+}
+
+.personal li:first-child, 
+.smallBusiness li:first-child, 
+.enterprise li:first-child{
+	color: white;
+	padding: 20px;
+}
+
+.personal li:last-child, 
+.smallBusiness li:last-child, 
+.enterprise li:last-child{
+	background: white;
+	padding: 30px;
+}
+
+.plans li{
+	background: lightgrey;
+	border-bottom: 1px solid grey;
+	padding: 10px 0px;
+}
+
+.plans ul{
+	border: 1px solid grey;
+	margin: 5px;
+}
+
+.plans button{
+	border-radius: 35%;
+	border: 1px solid grey;
+}
+
+.salesCopy{
+	background-color: white;
+	width: 100%;
+	text-align: center;
+	margin-bottom: 30px;
+}
+
+.salesCopy div{
+	display: inline-block;
+	margin: auto;
+  width: 500px;
+  text-align: left;
+  padding: 10px;
+}
+
+.salesCopy div h3{
+	margin-bottom: 10px;
+}
+
+footer{
+	background: black;
+	color:white;
+	height: 80px;
+	line-height:80px;
+	text-align: center;
+}
+
+
+
+
